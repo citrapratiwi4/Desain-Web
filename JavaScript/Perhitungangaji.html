@@ -1,0 +1,26 @@
+<body>
+    <script type="text/javascript">
+       function hitungGaji(jamKerja, jamLembur){
+        const gajiPerHari = 50000;
+        var gajiLembur=0;
+        var bonusmakan=0;
+        
+        if (jamLembur > 0 && jamLembur <= 2) {
+            gajiLembur = jamLembur * 25000;
+        } else if (jamLembur >= 3) {
+            gajiLembur = jamLembur * 35000;
+        }
+        if (jamKerja >= 20) {
+            bonusmakan+= 5000;
+        }
+        var totalgaji=gajiPerHari+gajiLembur+bonusmakan;
+        return totalgaji;
+    }
+  var jamKerja = 20;
+  var jamLembur = 3;
+
+  var totalgaji = hitungGaji(jamKerja, jamLembur);
+  document.writeln("totalgaji: Rp"+ totalgaji);
+  console.log(totalgaji);
+    </script>
+</body>

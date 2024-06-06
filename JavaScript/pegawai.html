@@ -1,0 +1,26 @@
+    <body>
+        <script type="text/javascript">
+            // Minta pengguna untuk memasukkan data
+    var jenisKelamin = prompt("Masukkan jenis kelamin (laki_laki / perempuan):");
+    var tinggiBadan = parseInt(prompt("Masukkan tinggi badan (dalam cm):"));
+    var beratBadan = parseInt(prompt("Masukkan berat badan (dalam kg):"));
+    var ipk = parseFloat(prompt("Masukkan IPK:"));
+    var pendidikan = prompt("Masukkan pendidikan (D3 / S1):");
+            // Pengecekan syarat penerimaan pegawai
+    if (jenisKelamin === "laki_laki") {
+        if (tinggiBadan >= 170 && tinggiBadan <= 179 && beratBadan === (tinggiBadan - 110) && ipk >= 3 && ipk <= 4 && (pendidikan === "D3" || pendidikan === "S1")) {
+            document.write("Selamat! Anda diterima sebagai pegawai.");
+        } else {
+            document.write("Maaf, Anda tidak memenuhi syarat penerimaan pegawai.");
+        }ss
+    } else if (jenisKelamin === "perempuan") {
+        if (tinggiBadan >= 160 && tinggiBadan <= 170 && beratBadan === (tinggiBadan - 110) && ipk >= 3 && ipk <= 4 && (pendidikan === "D3" || pendidikan === "S1")) {
+            document.write("Selamat! Anda diterima sebagai pegawai.");
+        } else {
+            document.write("Maaf, Anda tidak memenuhi syarat penerimaan pegawai.");
+        }
+    } else {
+        document.write("Jenis kelamin tidak valid. Masukkan 'laki_laki' atau 'perempuan'.");
+    }
+        </script>
+    </body>

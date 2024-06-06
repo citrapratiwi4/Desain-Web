@@ -1,0 +1,27 @@
+<body>
+    <script type="text/javascript">
+        function formatNumber(num) {
+      return num.toLocaleString('id-ID');
+    }
+
+    function hitungBilling() {
+        const totalDetik = parseInt(document.getElementById('totalDetik').value);
+      const detikPerPulsa = parseInt(document.getElementById('detikPerPulsa').value);
+      const hargaPerPulsa = parseInt(document.getElementById('hargaPerPulsa').value);
+
+      const totalPulsa = Math.ceil(totalDetik / detikPerPulsa);
+      const totalBayar = totalPulsa * hargaPerPulsa;
+
+      let sisaDetik = totalDetik;
+      const jam = Math.floor(sisaDetik / 3600);
+      sisaDetik %= 3600;
+      const menit = Math.floor(sisaDetik / 60);
+      sisaDetik %= 60;
+      const detik = sisaDetik;
+
+      const resultDiv = document.getElementById('result');
+
+    }
+      c
+    </script>
+</body>

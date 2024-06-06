@@ -8,27 +8,45 @@
 <style>
     body{
         background-color: rgb(248, 209, 225);
+        
     }
     .flex{
         display: flex; 
+      
     }
     .fd-row{
         flex-direction: row;
-        gap: 100px;
+        gap: 70px;
+        
+        
     }
     .fd-col{
         flex-direction: column;
+        margin: 10px;
+        border-style: groove 30px solid palevioletred;
+        -moz-transition: all 0.5s ease;
+        -o-transition: all 0.5s ease;
+        -webkit-border-image: auto;
+        background-image: url(image1.jpg);
+        
     }
+    h1{
+        font-family: 'Times New Roman', Times, serif;
+      
+        
+    }
+    
+    
 </style>
 <body>
     <div class="flex fd-row">
         <div class="flex fd-col">
             <h1><b>ELVIRA PRANANDA <br> 23441031</b></h1>
-            <img src="fotovira.jpeg" weight="500" height="500">
+            <img src="fotovira.jpeg" width="200px" style="border-radius: 200px; -moz-border-image: 200px;" >
         </div>
         <div class="flex fd-col">
             <h1><b>CITRA PRATIWI <br> 23441021</b></h1>
-            <img src="fotocitra.jpeg" weight="500" height="500" align="right">
+            <img src="fotocitra.jpeg"width="200px" style="border-radius: 200px; -moz-border-image: 200px;" >
         </div>
         
     </div>
