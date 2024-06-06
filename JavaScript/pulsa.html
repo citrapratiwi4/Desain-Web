@@ -1,27 +1,27 @@
 <body>
-    <script type="text/javascript">
-        function formatNumber(num) {
-      return num.toLocaleString('id-ID');
-    }
-
-    function hitungBilling() {
-        const totalDetik = parseInt(document.getElementById('totalDetik').value);
-      const detikPerPulsa = parseInt(document.getElementById('detikPerPulsa').value);
-      const hargaPerPulsa = parseInt(document.getElementById('hargaPerPulsa').value);
-
-      const totalPulsa = Math.ceil(totalDetik / detikPerPulsa);
-      const totalBayar = totalPulsa * hargaPerPulsa;
-
-      let sisaDetik = totalDetik;
-      const jam = Math.floor(sisaDetik / 3600);
-      sisaDetik %= 3600;
-      const menit = Math.floor(sisaDetik / 60);
-      sisaDetik %= 60;
-      const detik = sisaDetik;
-
-      const resultDiv = document.getElementById('result');
-
-    }
-      c
-    </script>
+  <script type="Text/javascript">
+    // Deklarasi jumlah detik yang ditentukan untuk billing online
+    var jumlahDetik = 10000;
+    
+    // Deklarasi harga per detik dan jumlah pulsa per detik
+    var hargaPerDetik = 30;
+    var jumlahPulsaPerDetik = 45;
+    
+    // Hitung jumlah pulsa yang digunakan
+    var jumlahPulsa = Math.ceil(jumlahDetik / jumlahPulsaPerDetik);
+    
+    // Hitung total biaya
+    var totalBiaya = jumlahPulsa * hargaPerDetik;
+    
+    // Hitung jam, menit, dan detik pemakaian
+    var jam = Math.floor(jumlahDetik / 3600);
+    var sisaDetik = jumlahDetik % 3600;
+    var menit = Math.floor(sisaDetik / 60);
+    var detik = sisaDetik % 60;
+    
+    // Output hasil
+    document.write("Total biaya yang harus dibayar :", totalBiaya, "rupiah");
+    document.write("<br>")
+    document.write("Pemakaian :" , jam, "jam" , menit, "menit" , detik, "detik");
+        </script>
 </body>
