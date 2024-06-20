@@ -1,0 +1,16 @@
+{
+	"folders": [
+		{
+			"path": "C:/xampp/htdocs/DesainWeb"
+		},
+		{
+			"path": "JavaScript"
+		},
+		{
+			"path": "."
+		}
+	],
+	"settings": {
+		"liveServer.settings.multiRootWorkspaceName": "Desain Web"
+	}
+}
