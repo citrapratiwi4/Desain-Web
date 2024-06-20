@@ -1,0 +1,171 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+body{
+    background-image: url(Imagelucu.jpg);
+    background-color: rgb(252, 247, 247);
+    background-size: cover;
+    background-position: bottom;
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.menu{
+    background-color: rgb(243, 201, 234);
+    text-align: center;
+}
+.menu ul{
+    display: inline-flex;
+    list-style: none;
+    color: blueviolet;
+}
+.menu ul li{
+    width: 120px;
+    margin: 15px;
+    padding: 15px;
+}
+.menu ul li a{
+    text-decoration: none;
+    color: rgb(15, 15, 15);
+}
+.active, .menu ul li:hover{
+    background-color: rgb(247, 0, 255);
+    border-radius: 3px;
+}
+.sub-menu-1{
+    display: none;
+
+}
+.menu ul li:hover .sub-menu-1{
+    display: block;
+    position: absolute;
+    background-color: aqua;
+    margin-top: 15px;
+    margin-left: -15px;
+
+}
+.menu ul li:hover .sub-menu-1 ul{
+    display: block;
+    margin: 10px;
+}
+.menu ul li:hover .sub-menu-1 ul li{
+    width: 150px ;
+    padding: 10px;
+    border-bottom: 1px dotted rgb(240, 101, 245);
+    background: transparent;
+    
+}
+.sub-menu-2{
+    display: none;
+
+}
+.menu ul li:hover .sub-menu-2{
+    display: block;
+    position: absolute;
+    background-color: aqua;
+    margin-top: 15px;
+    margin-left: -15px;
+
+}
+.menu ul li:hover .sub-menu-2 ul{
+    display: block;
+    margin: 10px;
+}
+.menu ul li:hover .sub-menu-2 ul li{
+    width: 150px ;
+    padding: 10px;
+    border-bottom: 1px dotted rgb(240, 101, 245);
+    background: transparent;
+}
+.sub-menu-3{
+    display: none;
+
+}
+.menu ul li:hover .sub-menu-3{
+    display: block;
+    position: absolute;
+    background-color: aqua;
+    margin-top: 15px;
+    margin-left: -15px;
+
+}
+.menu ul li:hover .sub-menu-3 ul{
+    display: block;
+    margin: 10px;
+}
+.menu ul li:hover .sub-menu-3 ul li{
+    width: 150px ;
+    padding: 10px;
+    border-bottom: 1px dotted rgb(240, 101, 245);
+    background: transparent;
+}
+.sub-menu-4{
+    display: none;
+
+}
+.menu ul li:hover .sub-menu-4{
+    display: block;
+    position: absolute;
+    background-color: aqua;
+    margin-top: 15px;
+    margin-left: -15px;
+
+}
+.menu ul li:hover .sub-menu-4 ul{
+    display: block;
+    margin: 10px;
+}
+.menu ul li:hover .sub-menu-4 ul li{
+    width: 150px ;
+    padding: 10px;
+    border-bottom: 1px dotted rgb(240, 101, 245);
+    background: transparent;
+}
+.sub-menu-6{
+    display: none;
+
+}
+.menu ul li:hover .sub-menu-6{
+    display: block;
+    position: absolute;
+    background-color: aqua;
+    margin-top: 15px;
+    margin-left: -15px;
+
+}
+.menu ul li:hover .sub-menu-6 ul{
+    display: block;
+    margin: 10px;
+}
+.menu ul li:hover .sub-menu-6 ul li{
+    width: 150px ;
+    padding: 10px;
+    border-bottom: 1px dotted rgb(240, 101, 245);
+    background: transparent;
+}
+.sub-menu-7{
+    display: none;
+
+}
+.menu ul li:hover .sub-menu-7{
+    display: block;
+    position: absolute;
+    background-color: rgb(182, 45, 170);
+    margin-top: 15px;
+    margin-left: -15px;
+
+}
+.menu ul li:hover .sub-menu-7 ul{
+    display: block;
+    margin: 10px;
+}
+.menu ul li:hover .sub-menu-7 ul li{
+    width: 150px ;
+    padding: 10px;
+    border-bottom: 1px dotted rgb(240, 101, 245);
+    background: transparent;
+}
+
+
+
+
